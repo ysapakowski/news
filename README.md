@@ -7,32 +7,15 @@
     ----------------------------------------------------------------- 
 
 
-Welcome to your Python project on Cloud9 IDE!
+Welcome to your Python/Flask & CSS/HTML project on Cloud9 IDE!
 
-To show what Cloud9 can do, we added a basic sample web application to this
-workspace, from the excellent Python tutorial _Learning Python the Hard Way_.
-We skipped ahead straight to example 50 which teaches how to build a web
-application.
+This is a shell of your final project!
 
-If you've never looked at the tutorial or are interested in learning Python,
-go check it out. It's a great hands-on way for learning all about programming
-in Python.
-
-* _Learning Python The Hard Way_, online version and videos: 
-http://learnpythonthehardway.org/book/
-
-* Full book: http://learnpythonthehardway.org
+You will fill in the blanks of concepts we learned in class. 
 
 ## Starting from the Terminal
 
-To try the example application, type the following in the terminal:
-
-```
-cd ex50
-python bin/app.py
-```
-
-Alternatively, open the file in ex50/bin and click the green Run
+Open the file app.py and click the green Run
 button!
 
 ## Configuration
