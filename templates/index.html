@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Name of your website here</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Question One of the Your Game">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700">
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+  </head>
+  <body>
+    <header>Name of your site HERE</header>
+    
+    <div id='main'>
+      <article>
+          <img src="">Image here</img>
+          <h1>Topic of the day: {{ topic }}</h1>
+          <div>
+           {% for article in articles %}
+            <div>{{article["description"]}}</div>
+            <div>
+                <a href="{{article['url']}}">
+                    <img src="{{article['urlToImage']}}" width="512" height="256"/>
+                </a>
+            </div>
+          {% endfor %}
+          </div>
+      </article>
+    </div>
+    <footer><p>&copy; Your group name GWC 2017</p></footer>
+  </body>
+</html>
