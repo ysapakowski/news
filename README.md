@@ -1,29 +1,23 @@
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+## Smile CommUNITY
 
+Welcome to our trivia game of Smile CommUNITY developed in Python/Flask, HTML and CSS on Cloud9 IDE!
 
-Welcome to your Python/Flask & CSS/HTML project on Cloud9 IDE!
+## Description
+This is part of GWC at Downers Grove Public Library. The course ran from January to May of 2017. We met 2 hours/week at the library. 
 
-This is a shell of your final project!
-
-You will fill in the blanks of concepts we learned in class. 
+If you've never looked at the tutorial or are interested in learning Python,
+go check it out. It's a great hands-on way for learning all about programming
+in Python.
 
 ## Starting from the Terminal
 
-Open the file app.py and click the green Run
+To try the example application, type the following in the terminal:
+
+```
+pip install Flask
+python app.py
+```
+
+Alternatively, open the app.py file and click the green Run
 button!
-
-## Configuration
-
-You can configure your Python version and `PYTHONPATH` used in
-Cloud9 > Preferences > Project Settings > Language Support.
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE.
-To watch some training videos, visit http://www.youtube.com/user/c9ide.
